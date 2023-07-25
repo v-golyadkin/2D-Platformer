@@ -8,4 +8,6 @@ public abstract class InputController : ScriptableObject
 
     public abstract bool RetrieveJumpInput();
 
+    public abstract bool RetrieveJumpHoldInput();
+
 }
